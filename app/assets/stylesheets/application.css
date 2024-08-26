@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(10, 1.5em);
+  grid-gap: 10px;
+}
+
+.card {
+  background-color: teal;
+  color:white;
+  text-align: center;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
+}
